@@ -14,10 +14,10 @@ const Login = () => {
     }
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }} sx={{ p: 15, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <Grid container spacing={{ md: 3 }} columns={{ xs: 12, sm: 12, md: 12 }} sx={{ py: 15, px: 3, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <Grid item xs={12} sm={4} md={4}>
-                    <Paper elevation={3} sx={{ p: 5 }}>
-                        <Typography variant="h4" sx={{ alignItems: 'center', mb: 3 }}>Admin Login</Typography>
+                    <Paper elevation={3} sx={{ p: 3 }}>
+                        <Typography variant="h4" sx={{ textAlign: 'center', mb: 3 }}>Admin Login</Typography>
                         <form onSubmit={handleSubmit(onSubmit)}>
                             <FormControl fullWidth variant="standard">
                                 <TextField
